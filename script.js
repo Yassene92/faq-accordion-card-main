@@ -10,6 +10,6 @@ document.querySelectorAll("question").forEach((question) => question.addEventLis
            
             document.querySelectorAll("question").forEach(question => question.parentNode.classList.remove("active"))
            
-            question.parentNode.classList.add('active')
+            question.parentNode.classList.add("active")
         }
 }))
