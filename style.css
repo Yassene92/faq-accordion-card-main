@@ -76,4 +76,33 @@
   margin-top: 61px;
   padding-left: 50px;
  }
-   
+ @media only screen and (max-width: 37rem) {
+  .card{  
+    flex-direction: column;
+    height: 789px;
+    width: 427px;
+  }
+  .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/bg-pattern-mobile.svg);
+    background-position: 38% 8px;
+  }
+  .card-img{
+     background: url(./images/illustration-woman-online-mobile.svg);
+     background-repeat: no-repeat;
+     position: absolute;
+     z-index: 1;
+     right: -30px;
+
+  }
+ 
+  .box{
+    display: none;
+  }
+  .card-info{
+    margin: auto;
+  }
+}
+    
